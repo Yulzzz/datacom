@@ -1,0 +1,94 @@
+
+
+/*Laptops ----------- */
+@media (max-width: 1366px) {
+    #hero .overlay {
+	    padding: 50px 0;
+
+	}
+}
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 768px) {
+	body{ overflow-x: hidden;}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-fixed-top .navbar-collapse {
+	  max-height: 420px;
+	  text-align: center;
+	}
+
+	.navbar-right {
+	    float: none !important;
+	    margin-right: -15px;
+	}
+    .navbar-nav {
+        float: center !important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in {display: block!important;}
+    .collapsing {overflow: hidden!important; }
+    .navbar-nav {margin: 0 -15px;}
+    .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 10px 15px 10px 25px;
+    }
+
+
+	/* body Style */
+	#hero {
+	    background: url(../img/bg/header-img.png);
+	    background-size: initial;
+	    background-position: 0 70px;
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    color: #5a5a5a;
+	}
+	#hero .overlay {
+	    padding: 20px 0;
+	}
+	#hero h1{
+	    margin-top:50px;
+	}
+
+	.icons-three{
+	    padding:0;
+	    margin-top:10px;
+	}
+	#images > div, #video >div{
+		padding:0;
+	}
+	#images img, #images .img-row{
+		margin-bottom: 10px;
+	}
+	.workshop-title h3{
+		padding: 20px 10px;
+	}
+	.workshop-title img{
+		width:100%;
+	}
+    .form .form-group {
+        width:100%;
+    }
+}
+

@@ -1,0 +1,50 @@
+#contact{
+    background: url(../img/bkgd.png);
+}
+    
+.workshop-title{
+	margin-top:70px;
+	color:#fff;
+}
+.workshop-title h3{
+	padding: 20px 0;
+	font-size: 24px;
+}
+.form {
+	background-color: #fff;
+	padding: 50px;
+}
+.form .form-group {
+	width: 50%;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.form .form-group input{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	box-shadow: none;
+	border-radius: 0;
+	padding-left:0;
+}
+.form h3{
+    text-align:left;
+}
+.form p.required{
+    font-size:13px;
+    color:red;
+    text-align:left;
+}
+.form .required label:after {
+    content: "*";
+    color: red;
+    padding-left: 3px;
+}
+.form button{
+    text-align:left;
+    text-transform:uppercase;
+    background:#efefef;
+    font-weight:600;
+    border:none;
+    padding:8px 25px;
+}
